@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+img {
+    display: inline-block;
+    width: 200px;
+}
+
+button#restore {
+    display: block;
+    width: 250px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding: 10px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    background-color: green;
+    border-radius: 10px;
+    box-shadow: 5px;
+}
+
